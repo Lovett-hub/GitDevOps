@@ -1,0 +1,16 @@
+1006  git add .
+   git commit -m "I have made changes on april 2nd"
+   git push origin master 
+  git status
+ git pull origin master
+  clear
+   git branch : list all the branches 
+   git branch dev : create a new branch name "dev"
+ git status
+  git checkout dev : used to switch from current branch to dev branch 
+ git status
+ git switch master : switch works same as checkout , used to switch or move from one branch to another.
+  git switch dev
+ clear
+ git status
+ History : lists all the recent used commands 
