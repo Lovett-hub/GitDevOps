@@ -1,8 +1,9 @@
+"""Demo module for my first Python program."""
+
+
 def myprogram():
-    """
-    this is demo
-    """
+    """Return a greeting message."""
     return "hello this is my first program"
 
 
-myprogram()
+print(myprogram())
