@@ -1,1 +1,9 @@
-print("hello this is my first program")
+def myprogram():
+    """
+    this is demo
+    """
+    return "hello this is my first program"
+
+
+hello()
+
