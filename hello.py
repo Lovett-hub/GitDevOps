@@ -5,5 +5,4 @@ def myprogram():
     return "hello this is my first program"
 
 
-hello()
-
+myprogam()
