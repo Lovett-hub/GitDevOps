@@ -7,16 +7,19 @@ Creates a new Git repository in the current folder.
 Downloads an existing GitHub/GitLab repository to your computer.
 
 3. git status
-Shows which files are changed, staged, or untracked.
+Shows which files are changed, untracked , tracked, staged.
 
 4. git add <file-name>
 Adds a specific file to the staging area from untracked.
+untracked ---> staging 
 
 5. git add .
 Adds all changed files to the staging area.
+all untracked files --> all staging files
 
 6. git commit -m "message"
 Saves the staged changes with a short message makes it tracked.
+staging ---> tracking
 
 7. git log
 Shows the commit history.
