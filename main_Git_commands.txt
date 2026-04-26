@@ -38,11 +38,24 @@ Switches to another branch. This is the newer command.
 
 13. git pull
 Downloads the latest changes from the remote repository and merges them into your current branch.
+git pull origin master = Pull changes from the remote master branch at the
+ GitHub repo URL called origin and update my local master branch.
 
 14. git push
 Uploads your local commits to the remote repository.
-example : git push origin master
-means --> Push my local master branch to the remote repo called origin.
+git push origin master = Push my local master branch to the remote master branch at the 
+GitHub repo URL called origin.
+
+
+origin = nickname for the GitHub repo URL
+master = branch name
+push = local to GitHub
+pull = GitHub to local
+
+
+
+
+
 
 15. git remote -v
 Shows the remote repository URL connected to your local project.
