@@ -41,6 +41,8 @@ Downloads the latest changes from the remote repository and merges them into you
 
 14. git push
 Uploads your local commits to the remote repository.
+example : git push origin master 
+Push my local master branch to the remote repo called origin.
 
 15. git remote -v
 Shows the remote repository URL connected to your local project.
