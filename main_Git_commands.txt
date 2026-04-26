@@ -10,13 +10,13 @@ Downloads an existing GitHub/GitLab repository to your computer.
 Shows which files are changed, staged, or untracked.
 
 4. git add <file-name>
-Adds a specific file to the staging area.
+Adds a specific file to the staging area from untracked.
 
 5. git add .
 Adds all changed files to the staging area.
 
 6. git commit -m "message"
-Saves the staged changes with a short message.
+Saves the staged changes with a short message makes it tracked.
 
 7. git log
 Shows the commit history.
