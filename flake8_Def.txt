@@ -1,0 +1,7 @@
+Flake8 is a Python tool that checks code quality, style, and common errors.
+
+It helps find problems like unused imports, missing spaces, long lines, and syntax issues.
+
+Install Flake8 using: pip install flake8
+
+Run Flake8 using: flake8 app.py or flake8 .
