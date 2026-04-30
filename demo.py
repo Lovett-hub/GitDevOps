@@ -1,7 +1,8 @@
 """
 Simple demo module
-
 """
+
+
 def my_function():
     """
     Return the sum of two numbers.
@@ -11,5 +12,3 @@ def my_function():
     d = 60
     c = a + b + d
     return c
-
-
