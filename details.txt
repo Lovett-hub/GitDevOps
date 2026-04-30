@@ -1,0 +1,2 @@
+Hey there i am trying to learn GITHUB CI/CD PIPELINEs
+lets do something here new on my local machine 

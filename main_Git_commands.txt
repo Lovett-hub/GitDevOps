@@ -1,0 +1,94 @@
+Git is a version control tool used by developers to track code changes, save project history, and collaborate with others.
+
+1. git init
+Creates a new Git repository in the current folder.
+
+2. git clone <repo-url>
+Downloads an existing GitHub/GitLab repository to your computer.
+
+3. git status
+Shows which files are changed, untracked , tracked, staged.
+
+4. git add <file-name>
+Adds a specific file to the staging area from untracked.
+untracked ---> staging 
+
+5. git add .
+Adds all changed files to the staging area.
+all untracked files --> all staging files
+
+6. git commit -m "message"
+Saves the staged changes with a short message makes it tracked.
+staging ---> tracking
+
+7. git log
+Shows the commit history.
+
+8. git branch
+Shows all branches in the project.
+
+9. git branch <branch-name>
+Creates a new branch.
+
+10. git checkout <branch-name>
+Switches to another branch.
+
+11. git checkout -b <branch-name>
+Creates a new branch and switches to it.
+
+12. git switch <branch-name>
+Switches to another branch. This is the newer command.
+
+13. git pull
+Downloads the latest changes from the remote repository and merges them into your current branch.
+git pull origin master = Pull changes from the remote master branch at the
+ GitHub repo URL called origin and update my local master branch.
+
+14. git push
+Uploads your local commits to the remote repository.
+git push origin master = Push my local master branch to the remote master branch at the 
+GitHub repo URL called origin.
+
+
+origin = nickname for the GitHub repo URL
+master = branch name
+push = local to GitHub
+pull = GitHub to local
+
+
+
+
+
+
+15. git remote -v
+Shows the remote repository URL connected to your local project.
+
+16. git merge <branch-name>
+Merges another branch into your current branch.
+
+17. git diff
+Shows the exact code changes before committing.
+
+18. git restore <file-name>
+Discards local changes in a file.
+
+19. git reset
+Unstages files from the staging area.
+
+20. git stash
+Temporarily saves your current changes without committing them.
+
+21. git stash pop
+Brings back the temporarily saved changes.
+
+22. git fetch
+Downloads latest updates from remote without merging them.
+
+23. git rm <file-name>
+Removes a file from the project and stages the deletion.
+
+24. git config --global user.name "Your Name"
+Sets your Git username.
+
+25. git config --global user.email "your@email.com"
+Sets your Git email
