@@ -4,8 +4,8 @@ def addition():
     d = a + b
     return d
 
-addition()
 
+addition()
 
 
 
