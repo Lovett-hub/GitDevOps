@@ -1,7 +1,6 @@
 def addition():
     a = 50
     b = 100
-
-    return d 
-
+    d = a + b
+    return d
 addition()
